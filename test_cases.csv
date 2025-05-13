@@ -1,0 +1,3 @@
+TC_ID,Module,Scenario,Steps,Expected,Actual,Status 
+TC001,Login,Valid login,Enter valid creds and login,Dashboard appears,Dashboard appears,Pass 
+TC002,Login,Invalid login,Enter wrong creds,Error message shown,Error shown,Pass 
