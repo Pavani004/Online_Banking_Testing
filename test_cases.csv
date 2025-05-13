@@ -1,3 +1,6 @@
-TC_ID,Module,Scenario,Steps,Expected,Actual,Status 
-TC001,Login,Valid login,Enter valid creds and login,Dashboard appears,Dashboard appears,Pass 
-TC002,Login,Invalid login,Enter wrong creds,Error message shown,Error shown,Pass 
+TC_ID,Module,Test Scenario,Test Steps,Expected Result,Actual Result,Status
+TC001,Login,Valid credentials,Enter valid User ID and Password and click login,Dashboard appears,Dashboard appears,Pass
+TC002,Login,Invalid credentials,Enter invalid login details and click login,Error message shown,Error message shown,Pass
+TC003,New Customer,Add new customer with valid data,Fill all fields and submit,Customer added,Customer added,Pass
+TC004,Fund Transfer,Transfer with valid accounts,Enter valid account numbers and amount,Success message,Success message,Pass
+TC005,Logout,User logs out after transaction,Click logout after transaction,Redirect to login page,No action,Fail
