@@ -1,23 +1,24 @@
-# Manual Testing – Online Banking Portal
+#  Manual Testing – Online Banking Portal
 
-This project is a manual testing simulation on [demo.guru99.com](https://demo.guru99.com/V4/), a demo banking application. The testing covers core modules like Login, Fund Transfer, and Customer Registration.
+This project demonstrates **manual testing** of an online banking portal using the demo site [demo.guru99.com](https://demo.guru99.com/V4/).
 
-##  Project Artifacts
+##  Modules Tested
+- Login
+- New Customer
+- Fund Transfer
+- Logout
 
-- Test Cases: [test_cases.xlsx](test_cases.xlsx)
-- Bug Reports: [bug_report.md](bug_report.md)
-- Summary Report: [test_summary_report.md](test_summary_report.md)
+##  Artifacts
+-  Test Cases: [test_cases.csv](./test_cases.csv)
+-  Bug Reports: [bug_report.md](./bug_report.md)
+-  Summary Report: [test_summary_report.md](./test_summary_report.md)
 
-## 🔧 Tools Used
+##  Tools Used
+- Manual Testing
+- Excel / CSV
+- Markdown
+- Git & GitHub
 
-- Manual testing
-- Excel & Markdown
-- GitHub for documentation
+---
 
-## Tested Scenarios
-- Valid/Invalid Login
-- Add New Customer
-- Perform Fund Transfer
-- Validate Logout
-
-This project showcases manual testing skills including test design, execution, and bug reporting.
+This project shows end-to-end test documentation, from test case creation to bug reporting, with evidence.
